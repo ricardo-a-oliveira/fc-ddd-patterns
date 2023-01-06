@@ -2,7 +2,6 @@ package main
 
 import (
 	"net"
-
 	"bitbucket.org/ricardosoliveira/fullcycle-arquitetura-sw/comunicacao/gRPC/internal/pb"
 	"bitbucket.org/ricardosoliveira/fullcycle-arquitetura-sw/comunicacao/gRPC/internal/service"
 	"google.golang.org/grpc"
