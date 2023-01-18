@@ -16,3 +16,7 @@ go mod tidy
 
 Gerar as dependecias GraphicsQL
 go run github.com/99designs/gqlgen init
+
+
+Gerar codigo baseado no schema do GraphQL
+go run github.com/99designs/gqlgen generate

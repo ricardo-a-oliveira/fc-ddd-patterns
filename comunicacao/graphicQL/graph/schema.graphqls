@@ -36,5 +36,5 @@ type Query {
 # Mutation é quando voce quer realizar alguma alteração no modelo. criar / adicionar
 type Mutation {
     createCategory( input: NewCategory!): Category!
-    createCourse( input NewCourse!): Course!
+    createCourse( input: NewCourse!): Course!
 }
