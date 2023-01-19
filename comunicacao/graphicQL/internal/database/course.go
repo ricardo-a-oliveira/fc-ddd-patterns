@@ -68,3 +68,4 @@ func (c *Course) FindByCategoryID(categoryID string) ([]Course, error) {
     }
     return courses, nil
 }
+
