@@ -1,7 +1,9 @@
+import Address from "../value-object/address";
+
 class Customer {
     private _id: string;
     private _name: string = "";
-    private _address: string = "";
+    private _address!: Address;
     private _active: boolean = false;
 
 
