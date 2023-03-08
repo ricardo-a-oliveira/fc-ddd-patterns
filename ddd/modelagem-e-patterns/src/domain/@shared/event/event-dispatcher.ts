@@ -1,4 +1,5 @@
-import EventDispatcherInterface from "./event/event-dispatcher.interface";
+
+import EventDispatcherInterface from "./event-dispatcher.interface";
 import EventHandlerInterface from "./event-handler.interface";
 import EventInterface from "./event.interface";
 

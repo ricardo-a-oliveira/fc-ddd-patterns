@@ -1,8 +1,10 @@
-import Order from "../../domain/entity/order";
-import OrderItem from "../../domain/checkout/entity/order_item";
-import OrderRepositoryInterface from "../../domain/checkout/repository/order-repository.interface";
-import OrderModel from "../checkout/repository/sequelize/order.model";
-import OrderItemModel from "../checkout/repository/sequelize/order_item.model";
+
+import Order from "../../../../domain/checkout/entity/order";
+import OrderItem from "../../../../domain/checkout/entity/order_item";
+import OrderRepositoryInterface from "../../../../domain/checkout/repository/order-repository.interface";
+import OrderModel from "./order.model";
+import OrderItemModel from "./order_item.model";
+
 
 
 export default class OrderRepository implements OrderRepositoryInterface {
