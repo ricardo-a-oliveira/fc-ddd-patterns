@@ -2,9 +2,9 @@
 import { Sequelize } from "sequelize-typescript";
 import Customer from "../../domain/entity/customer";
 import Order from "../../domain/entity/order";
-import OrderItem from "../../domain/entity/order_item";
+import OrderItem from "../../domain/checkout/entity/order_item";
 import Product from "../../domain/entity/product";
-import Address from "../../domain/value-object/address";
+import Address from "../../domain/customer/value-object/address";
 import CustomerModel from "../db/sequelize/model/customer.model";
 import OrderModel from "../db/sequelize/model/order.model";
 import OrderItemModel from "../db/sequelize/model/order_item.model";
